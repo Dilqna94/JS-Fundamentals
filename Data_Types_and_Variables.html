@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Data type</title>
+</head>
+<body>
+<h4>Problem 1. Assign all the possible JavaScript literals to different variables.</h4>
+<p id="demo"> </p>
+<script>
+    //problem 1 - Assign all the possible JavaScript literals to different variables.
+    var integer = 33;
+    var float = 33.33;
+    var boolT = true;
+    var string = "patato";
+    var animals = ["cat", "dog", "hen"];  //array
+    var person = { firstName:"Spas", lastName:"Spasov", age: 99 }; //object
+    document.getElementById("demo").innerHTML =
+            integer + "<br>" +
+            float + "<br>" +
+            boolT + "<br>" +
+            string + "<br>" +
+            animals + "<br>" +
+            person.firstName + " is " + person.age + " years old.";
+
+</script>
+
+<h4>Problem 2. Quoted text. Create a string variable with quoted text in it.</h4>
+<p id="demo2"></p>
+<script>
+
+    var quotedText = '"How you doin?", Joey said';
+    console.log('Problem 2. Quoted text: ' + quotedText)
+
+    document.getElementById("demo2").innerHTML = quotedText;
+</script>
+
+   <h4>Problem 3. Typeof variables. Try typeof on all variables you created.</h4>
+<p id="demo3"></p>
+<script>
+
+    console.log('Problem 3. Typeof variables: ' + typeof integer + ', ' + typeof float + ', ' + typeof boolT + ', ' + typeof string +
+    ', ' + typeof animals + ', ' + typeof person )
+
+</script>
+
+
+<h4>Problem 4. Typeof null. Create null, undefined variables and try typeof on them.</h4>
+<p id="demo4"></p>
+<script>
+    var chicken;                  // undefined, type is undefined
+    patato = undefined;          // Value is undefined, type is undefined
+    var car = "";                // The value is "", the typeof is string
+    var nullable = null;           // Value is null, but type is still an object
+    var undef = undefined;     // Value is undefined, type is undefined
+    console.log('Problem 4. Typeof null: '+ typeof chicken +', '+ typeof  patato + ', '+ typeof car +', '+ typeof nullable +', '+ typeof undef)
+</script>
+</body>
+</html>

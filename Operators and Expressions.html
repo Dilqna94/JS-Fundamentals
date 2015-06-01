@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Operators and Expressions</title>
+    <style>
+        h4{
+            color: red;
+        }
+        table th{
+            font-weight: bold;
+        }
+        table td{
+            text-align: center;
+            padding:5px 10px ;
+        }
+    </style>
+</head>
+<body>
+   <h4>Problem 1. Odd or Even</h4>
+   <script>
+       function isOdd(num) {
+           return (num % 2 === 0) ? true : false;
+       }
+       var mytable = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>n</th><th> odd? </th>";
+       for (var i = -5; i < 5; i++) {
+           mytable += "</tr><tr>";
+           mytable += "<td>" + i + "</td><td style='text-align: center'>" + isOdd(i) +"</td>";
+
+
+       }
+       mytable += "</tr></tbody></table>";
+       document.write(mytable);
+   </script>
+   <h4>Problem 2. Divisible by 7 and 5 </h4>
+    <script>
+        function isDivisible(num) {
+            return ((num % 7 === 0) && (num % 5 === 0)) ? true : false;
+        }
+        var mytable1 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>n</th><th> devided by 7 and 5 </th>";
+        for (var i = 0; i < 100; i+=5) {
+            mytable1 += "</tr><tr>";
+            mytable1 += "<td>" + i + "</td><td style='text-align: center'>" + isDivisible(i) +"</td>";
+
+
+        }
+        mytable1 += "</tr></tbody></table>";
+        document.write(mytable1);
+    </script>
+  <h4>Problem 3. Rectangle area</h4>
+<script>
+    function area(x, y){
+        return x*y;
+    }
+    var mytable2 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>X</th><th> Y </th><th>Area</th></tr>";
+    mytable2 += "<tr><td> 3</td> <td> 7 </td> <td>"+area(3, 7)+ "</td></tr>";
+    mytable2 += "<tr><td>4</td> <td> 8 </td> <td>"+area(4, 8)+ "</td></tr>";
+    mytable2 += "<tr><td> 5</td> <td> 9 </td> <td>"+area(5, 9)+ "</td></tr>";
+    mytable2 += "<tr><td> 6</td> <td> 10 </td> <td>"+area(6, 10)+ "</td></tr>";
+    mytable2 += "</tr></tbody></table>";
+    document.write(mytable2);
+</script>
+<h4>Problem 4 Write an expression that checks for given integer if its third digit (right-to-left) is 7.</h4>
+   <script>
+       function thirdNum(x){
+           return(Math.floor(x /100)%10 == 7 )? true : false;
+
+       }
+
+       console.log('the third digit in 505 is 7? ' + thirdNum(505));
+       console.log('the third digit in 700 is 7?  ' + thirdNum(700));
+       console.log('the third digit in 1705 is 7?  ' + thirdNum(1705));
+       console.log('the third digit in 1500 is 7?  ' + thirdNum(1500));
+
+       var mytable3 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>n</th><th> is third digit 7 </th>";
+
+       mytable3 += "<tr><td> 500</td> <td>"+thirdNum(505)+ "</td></tr>";
+       mytable3 += "<tr><td> 700</td> <td>"+thirdNum(700)+ "</td></tr>";
+       mytable3 += "<tr><td> 1700</td> <td>"+thirdNum(1700)+ "</td></tr>";
+       mytable3 += "<tr><td> 1500</td> <td>"+thirdNum(1500)+ "</td></tr>";
+       mytable3 += "<tr><td> 1735</td> <td>"+thirdNum(1735)+ "</td></tr>";
+       mytable3 += "</tr></tbody></table>";
+       document.write(mytable3);
+   </script>
+   <h4>Problem 5. Third bit</h4>
+
+<script>
+    function getBitAt(number){
+        return (number >> 3) == 1? 1 : 0;
+    }
+
+    console.log(" 8 " + getBitAt(8));
+    var mytable4 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>n</th><th> #3? </th></tr>";
+
+    mytable4 += "<tr><td> 8</td> <td>"+getBitAt(8)+ "</td></tr>";
+    mytable4 += "<tr><td> 5</td> <td>"+getBitAt(5)+ "</td></tr>";
+    mytable4 += "<tr><td> 15</td> <td>"+getBitAt(15)+ "</td></tr>";
+    mytable4 += "</tr></tbody></table>";
+    document.write(mytable4);
+</script>
+   <h4>Problem 6. Point in Circle Write an expression that checks if given point P(x, y) is within a circle K({0,0}, 5). //{0,0} is the centre and 5 is the radius</h4>
+
+<script>
+    //x² + y² < r²
+
+    function pointInCircle(y,x){
+        var radius = 5;
+        return((x * x + y * y) < radius * radius)? true : false;
+    }
+    var mytable5 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>X</th><th> Y </th><th>Inside?</th></tr>";
+    mytable5 += "<tr><td> 3</td> <td> 7 </td> <td>"+pointInCircle(3, 7)+ "</td></tr>";
+    mytable5 += "<tr><td> -5</td> <td> 0 </td> <td>"+pointInCircle(-5, 0)+ "</td></tr>";
+    mytable5 += "<tr><td> 0</td> <td>1 </td> <td>"+pointInCircle(0, 1)+ "</td></tr>";
+    mytable5 += "</tr></tbody></table>";
+    document.write(mytable5);
+</script>
+   <h4>Problem 7. Is prime</h4>
+<script>
+    function isPrime(number){
+        return(((number % 2 == 0)
+        && (number % 3 == 0) && (number % 5 ==0)
+        && (number % 7 == 0)) || ((number == 2) || (number == 3)
+        || (number == 5) || (number == 7)) )? true : false;
+    }
+    console.log(" 5  " +isPrime(5));
+
+    var mytable6 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>n</th><th> prime? </th>";
+
+    mytable6 += "<tr><td> 8</td> <td>"+isPrime(8)+ "</td></tr>";
+    mytable6 += "<tr><td> 5</td> <td>"+isPrime(5)+ "</td></tr>";
+    mytable6 += "<tr><td> 15</td> <td>"+isPrime(15)+ "</td></tr>";
+    mytable6 += "</tr></tbody></table>";
+    document.write(mytable6);
+</script>
+   <h4>Problem 8. Trapezoid area</h4>
+<script>
+   function trapArea(a, b, h){
+      return (a + b) * h / 2;
+
+    }
+   var mytable7 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>a</th><th> b </th><th> h </th><th> area </th></tr>";
+
+   mytable7 += "<tr><td> 8</td> <td> 7  </td> <td> 6 </td><td>"+trapArea(8,7,6)+ "</td></tr>";
+   mytable7 += "<tr><td> 5</td> <td> 4  </td> <td> 3 </td><td>"+trapArea(5,4,3)+ "</td></tr>";
+   mytable7 += "</tr></tbody></table>";
+   document.write(mytable7);
+</script>
+
+   <h4>Problem 9. Point in Circle and outside Rectangle Write an expression that checks for given point P(x, y) if it is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2).</h4>
+<script>
+    function isPointIn(x, y) {
+       return(((x - 1) * (x - 1) + (y - 1) * (y - 1)) <= 9) && ((x < -1) || ((x >= -1) && ((y <= -1) || (y >= 1))))? true : false;
+
+    }
+   console.log(isPointIn(3, 5)) ;
+    console.log( isPointIn(1, 1));
+    var mytable8 = "<table border='1' cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>X</th><th> Y </th><th>Inside?</th></tr>";
+    mytable8 += "<tr><td> 3</td> <td> 7 </td> <td>"+isPointIn(3, 7)+ "</td></tr>";
+    mytable8 += "<tr><td> -5</td> <td> 0 </td> <td>"+isPointIn(-5, 0)+ "</td></tr>";
+    mytable8 += "<tr><td> 0</td> <td>1 </td> <td>"+isPointIn(0, 1)+ "</td></tr>";
+    mytable8 += "</tr></tbody></table>";
+    document.write(mytable8);
+</script>
+</body>
+</html>
