@@ -21,21 +21,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blq.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blq.html">
+      <file leaf-file-name="Problem 1. Numbers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Loops/Problem 1. Numbers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5521368">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data_Types_and_Variables.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Types_and_Variables.html">
+      <file leaf-file-name="Problem 2. Numbers not divisible.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Loops/Problem 2. Numbers not divisible.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4615383">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem 3. Min-Max of sequence.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Loops/Problem 3. Min-Max of sequence.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem 4. Lexicographically smallest.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Loops/Problem 4. Lexicographically smallest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08478803">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Loops/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -46,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -58,6 +88,20 @@
         <option value="$PROJECT_DIR$/blq.html" />
         <option value="$PROJECT_DIR$/Operators and Expressions.html" />
         <option value="$PROJECT_DIR$/Operators and Expressions.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 1. Exchange if greater.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 2. Multiplication Sign.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 3. The biggest of Three.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 4. Sort 3 numbers.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 5. Digit as word.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 6. Quadratic equation.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 7. The biggest of five numbers.js" />
+        <option value="$PROJECT_DIR$/Conditional statements/Problem 8. Number as words.js" />
+        <option value="$PROJECT_DIR$/Loops/Problem 1. Numbers.js" />
+        <option value="$PROJECT_DIR$/Loops/Problem 3. Min/Max of sequence.js" />
+        <option value="$PROJECT_DIR$/Loops/Problem 3. Min-Max of sequence.js" />
+        <option value="$PROJECT_DIR$/Loops/Problem 2. Numbers not divisible.js" />
+        <option value="$PROJECT_DIR$/Loops/index.html" />
+        <option value="$PROJECT_DIR$/Loops/Problem 4. Lexicographically smallest.js" />
       </list>
     </option>
   </component>
@@ -97,8 +141,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -117,6 +161,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS-Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS-Fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loops" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -127,18 +185,22 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Operators and Expressions.html (1)">
-    <configuration default="false" name="Data_Types_and_Variables.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-Fundamentals/Data_Types_and_Variables.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="Problem 8. Number as words.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="Problem 8. Number as words.js" working-dir="$PROJECT_DIR$/Conditional statements">
       <method />
     </configuration>
-    <configuration default="false" name="Operators and Expressions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS-Fundamentals/Operators and Expressions.html">
+    <configuration default="false" name="Problem 1. Numbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="Problem 1. Numbers.js" working-dir="$PROJECT_DIR$/Loops">
       <method />
     </configuration>
-    <configuration default="false" name="blq.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:1863/JS-Fundamentals/blq.html">
+    <configuration default="false" name="Problem 2. Numbers not divisible.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="Problem 2. Numbers not divisible.js" working-dir="$PROJECT_DIR$/Loops">
       <method />
     </configuration>
-    <configuration default="false" name="Operators and Expressions.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:1863/JS-Fundamentals/Operators and Expressions.html">
+    <configuration default="false" name="Problem 3. Min-Max of sequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="Problem 3. Min-Max of sequence.js" working-dir="$PROJECT_DIR$/Loops">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:1384/JS-Fundamentals/Loops/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -179,18 +241,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Data_Types_and_Variables.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Operators and Expressions.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.blq.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Operators and Expressions.html (1)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Problem 8. Number as words.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 1. Numbers.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 2. Numbers not divisible.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 3. Min-Max of sequence.js" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Operators and Expressions.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.blq.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Operators and Expressions.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Data_Types_and_Variables.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Problem 3. Min-Max of sequence.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Problem 2. Numbers not divisible.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Problem 1. Numbers.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Problem 8. Number as words.js" />
       </list>
     </recent_temporary>
   </component>
@@ -216,11 +280,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -243,11 +307,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Data_Types_and_Variables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Operators and Expressions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -255,8 +327,8 @@
           <folding>
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1432665740215" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432665740215" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432664780199" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432664780199" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -271,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Types_and_Variables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4615383">
+        <state vertical-scroll-proportion="0.24444444">
           <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding />
         </state>
@@ -279,29 +351,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Operators and Expressions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-1.3866667">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1432665740215" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1432665740215" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432664780199" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432664780199" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Operators and Expressions.js">
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 2. Multiplication Sign.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1391162">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 1. Exchange if greater.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 4. Sort 3 numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25081968">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blq.html">
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 3. The biggest of Three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5521368">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.5295082">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 5. Digit as word.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 6. Quadratic equation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 7. The biggest of five numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional statements/Problem 8. Number as words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5760599">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="e#433#463#0" expanded="false" />
+            <element signature="e#483#539#0" expanded="false" />
+            <element signature="e#563#952#0" expanded="false" />
+            <element signature="n#!!block;n#getDigit#0" expanded="false" />
+            <element signature="n#!!block;n#getTens#0" expanded="false" />
+            <element signature="n#!!block;n#getTeens#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Problem 1. Numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Problem 2. Numbers not divisible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Problem 3. Min-Max of sequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Problem 4. Lexicographically smallest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08478803">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding />
         </state>
       </provider>
