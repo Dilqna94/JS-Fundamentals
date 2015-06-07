@@ -1,6 +1,6 @@
 /**
  Write a script that finds the lexicographically smallest and largest property in document, window and navigator objects.
- open the index.html to see the result 
+ open the index.html to see the result
  */
 console.log('window');
 getProperties(window);
