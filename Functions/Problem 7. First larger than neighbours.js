@@ -25,11 +25,16 @@ function larger(arr, index){
     return result;
 }
 function getIndex(arrey){
-    for (var i =0; i<arrey.length;i++)
+
+    for (var i in arrey){
         if(larger(arrey,i)){
-            return i;
+            console.log(i);
         }
-    return -1;
+       else
+        {
+            return -1;
+        }
+    }
 }
-console.log(getIndex([1,3,4]));
-console.log(getIndex([4,4]));
+console.log(getIndex([1,8,5,2]));
+//console.log(getIndex([4,4]));
